@@ -18,9 +18,9 @@ let exibir_todos = () => {
 
 function menu() {
     let ham = document.getElementById('menu')
-    if (ham.style.display == "none"){
-        ham.style.display = "block"
-    } else {
+    if (ham.style.display == "block"){
         ham.style.display = "none"
+    } else {
+        ham.style.display = "block"
     }
 }

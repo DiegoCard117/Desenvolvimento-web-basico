@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-
-
 /* paleta de cores
     #1C1C26 "preto"
     #223D73 azul escuro
@@ -11,7 +9,6 @@
     #447EF2 azul claro
     #44F2E1 verde agua
 */
-
 
 * {
     margin: 0;
@@ -46,7 +43,10 @@ main > p {
 nav > ul {
     background-color: #223D73;
     height: 55px;
+    position: sticky;
+    top: 0;
 }
+
 
 .menu {
     display: inline-block;
@@ -100,8 +100,7 @@ footer{
 }
 
 .lojas {
-    width: 50%;
-    padding: 20px;
+padding: 20px;
 }
 
 input {
@@ -168,10 +167,6 @@ li {
     left: 90%;
 }
 
-#ham > img:hover {
-    color: aliceblue;
-}
-
 .responsivo {
     background-color: #223d73de;
     position: absolute;
@@ -191,6 +186,17 @@ li {
     margin-top: 20px;
 }
 
+
+.contatos {
+    border: 1px solid;
+    box-sizing: content-box;
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
 
 @media (min-width: 500px) {
     .responsivo {
