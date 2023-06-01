@@ -7,8 +7,8 @@
     padding: 0;
 }
 
-body {
-    width: 100vw;
+html, body {
+    width: 100%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
@@ -25,6 +25,10 @@ h2 {
 
 h3 {
     padding: 10px;
+}
+
+main > p {
+    margin: 10px;
 }
 
 nav > ul {
@@ -46,6 +50,10 @@ a:hover {
     color: red;
     cursor: pointer;
     box-sizing: content-box;
+    width: 200px;
+    transition: 0.2s;
+    background-color: whitesmoke;
+    transform: scale(1.03);
 }
 
 a {
@@ -64,7 +72,13 @@ a {
     min-height: 100vh;
 }
 
+
+footer > img {
+    width: 200px;
+}
+
 footer{
+    margin-top: 50px;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -91,15 +105,36 @@ input {
     margin: auto;
     margin: 5px;
     padding: 10px;
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
+}
+
+.box_produtos:hover {
+    transition: 0.5s;
+    background-color: whitesmoke;
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .produtos {
     margin: auto;
-    width: 80%;
+    width: 65%;
+    margin-right: 80px;
 }
 
 li {
     padding: 5px 0px 5px 30px;
+}
+
+#geral:hover {
+    cursor: pointer;
+    color: red;
+    background-color: whitesmoke;
+    width: 200px;
+    transform: scale(1.03);
+    transition: 0.5s;
 }
 
 

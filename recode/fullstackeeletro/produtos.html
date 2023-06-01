@@ -21,75 +21,82 @@
     <hr>
     <main>
     <section class="categorias">
-        <h3>Categorias</h3>
+        <h3 id="geral" onclick="exibir_todos()">Categorias - Todos</h3>
         <ul>
-            <li>Geladeiras</li>
-            <li>Foçoes</li>
-            <li>Microondas</li>
-            <li>Lavadoura de Roupa</li>
-            <li>Lava-louças</li>
+            <li onclick="exibirCategoria('geladeira')" >Geladeiras</li>
+            <li onclick="exibirCategoria('fogao')" >Fogões</li>
+            <li onclick="exibirCategoria('micro')" >Microondas</li>
+            <li onclick="exibirCategoria('roupa')" >Lavadoura de Roupa</li>
+            <li onclick="exibirCategoria('lava')" >Lava-louças</li>
         </ul>
     </section>
     <section class="produtos">
-        <div class="box_produtos">
+        <div class="box_produtos" id="geladeira">
             <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
             <p>Geladeira Eletrolux</p><hr>
             <p><s>R$ 4.619,00</s></p>
             <p class="preço">R$ 3.134,05</p>
         </div>
-        <div class="box_produtos">
+        <div class="box_produtos" id="geladeira">
             <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
             <p>Geladeira Eletrolux</p><hr>
             <p><s>R$ 4.619,00</s></p>
             <p class="preço">R$ 3.134,05</p>
         </div>
-        <div class="box_produtos">
+        <div class="box_produtos" id="geladeira">
             <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
             <p>Geladeira Eletrolux</p><hr>
             <p><s>R$ 4.619,00</s></p>
             <p class="preço">R$ 3.134,05</p>
         </div>
-        <div class="box_produtos">
-            <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
-            <p>Geladeira Eletrolux</p><hr>
-            <p><s>R$ 4.619,00</s></p>
-            <p class="preço">R$ 3.134,05</p>
+        <div class="box_produtos" id="fogao">
+            <img class="imagem" src="img/fogao1.png" alt="fogao" width=120px><br>
+            <p>Fogão Brastemp</p><hr>
+            <p><s>R$ 2.449,00</s></p>
+            <p class="preço">R$ R$ 1.999,90</p>
         </div>
-        <div class="box_produtos">
-            <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
-            <p>Geladeira Eletrolux</p><hr>
-            <p><s>R$ 4.619,00</s></p>
-            <p class="preço">R$ 3.134,05</p>
+        
+        <div class="box_produtos" id="fogao">
+            <img class="imagem" src="img/fogao1.png" alt="fogao" width=120px><br>
+            <p>Fogão Brastemp</p><hr>
+            <p><s>R$ 2.449,00</s></p>
+            <p class="preço">R$ R$ 1.999,90</p>
         </div>
-        <div class="box_produtos">
-            <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
-            <p>Geladeira Eletrolux</p><hr>
-            <p><s>R$ 4.619,00</s></p>
-            <p class="preço">R$ 3.134,05</p>
+        <div class="box_produtos" id="fogao">
+            <img class="imagem" src="img/fogao1.png" alt="geladeira" width=120px><br>
+            <p>Fogão Brastemp</p><hr>
+            <p><s>R$ 2.449,00</s></p>
+            <p class="preço">R$ R$ 1.999,90</p>
         </div>
-        <div class="box_produtos">
-            <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
-            <p>Geladeira Eletrolux</p><hr>
-            <p><s>R$ 4.619,00</s></p>
-            <p class="preço">R$ 3.134,05</p>
+        <div class="box_produtos" id="lava">
+            <img class="imagem" src="img/lava.png" alt="lava-louças" width=120px><br>
+            <p>Lava-Louças Cuisinart</p><hr>
+            <p><s>R$ 9.990,00</s></p>
+            <p class="preço">R$ 8.991,00</p>
         </div>
-        <div class="box_produtos">
-            <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
-            <p>Geladeira Eletrolux</p><hr>
-            <p><s>R$ 4.619,00</s></p>
-            <p class="preço">R$ 3.134,05</p>
+        <div class="box_produtos" id="lava">
+            <img class="imagem" src="img/lava.png" alt="lava-louças" width=120px><br>
+            <p>Lava-Louças Cuisinart</p><hr>
+            <p><s>R$ 9.990,00</s></p>
+            <p class="preço">R$ 8.991,00</p>
         </div>
-        <div class="box_produtos">
-            <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
-            <p>Geladeira Eletrolux</p><hr>
-            <p><s>R$ 4.619,00</s></p>
-            <p class="preço">R$ 3.134,05</p>
+        <div class="box_produtos" id="roupa">
+            <img class="imagem" src="img/roupa.png" alt="roupa" width=120px><br>
+            <p>Lava Roupas 16kg</p><hr>
+            <p><s>R$ 2.299,00</s></p>
+            <p class="preço">R$ 1499,90</p>
         </div>
-        <div class="box_produtos">
-            <img class="imagem" src="img/geladeira.png" alt="geladeira" width=120px><br>
-            <p>Geladeira Eletrolux</p><hr>
-            <p><s>R$ 4.619,00</s></p>
-            <p class="preço">R$ 3.134,05</p>
+        <div class="box_produtos" id="roupa">
+            <img class="imagem" src="img/roupa.png" alt="roupa" width=120px><br>
+            <p>Lava Roupas 16kg</p><hr>
+            <p><s>R$ 2.299,00</s></p>
+            <p class="preço">R$ 1499,90</p>
+        </div>
+        <div class="box_produtos" id="micro">
+            <img class="imagem" src="img/micro.png" alt="micro" width=120px><br>
+            <p>Microondas Panasonic</p><hr>
+            <p><s>R$ 979,90</s></p>
+            <p class="preço">R$ 929,90</p>
         </div>
     </section>
     <footer>
@@ -97,5 +104,6 @@
         <img src="./img/pagamento.png" alt="Formas de pagamento">
         <p>&copy: Recode Pro</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
