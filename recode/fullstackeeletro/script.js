@@ -15,3 +15,12 @@ let exibir_todos = () => {
     for (let i = 0; i < elementos.length; i++)
         elementos[i].style = "display:inline-block"
 }
+
+function menu() {
+    let ham = document.getElementById('menu')
+    if (ham.style.display == "none"){
+        ham.style.display = "block"
+    } else {
+        ham.style.display = "none"
+    }
+}
