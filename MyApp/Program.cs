@@ -56,7 +56,11 @@ int c = Int32.Parse(Console.ReadLine());
 
 int delta = (b*b) - 4*a*c;
 Console.WriteLine("delta é " + delta);
-double bhas1 = ((b * (-1)) + Math.Sqrt(delta)) / (2*a);
-Console.WriteLine("A primeira raiz é " + bhas1);
-double bhas2 = ((b * (-1)) - Math.Sqrt(delta)) / (2*a);
-Console.WriteLine("A segunda raiz é " + bhas2);
+if (delta > 0 ) {
+    double bhas1 = ((b * (-1)) + Math.Sqrt(delta)) / (2*a);
+    Console.WriteLine("A primeira raiz é " + bhas1);
+    double bhas2 = ((b * (-1)) - Math.Sqrt(delta)) / (2*a);
+    Console.WriteLine("A segunda raiz é " + bhas2);
+} else {
+    Console.WriteLine("Nao existe raiz real");
+}

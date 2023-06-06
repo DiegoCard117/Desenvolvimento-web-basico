@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\bin\Debug\net7.0\c#Aula.exe
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\bin\Debug\net7.0\c#Aula.deps.json
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\bin\Debug\net7.0\c#Aula.runtimeconfig.json
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\bin\Debug\net7.0\c#Aula.dll
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\bin\Debug\net7.0\c#Aula.pdb
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\c#Aula.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\c#Aula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\c#Aula.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\c#Aula.AssemblyInfo.cs
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\c#Aula.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\c#Aula.dll
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\refint\c#Aula.dll
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\c#Aula.pdb
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\c#Aula.genruntimeconfig.cache
+C:\Users\diego\Desktop\projetos pessoais\Desenvolvimento-web-basico\c#Aula\obj\Debug\net7.0\ref\c#Aula.dll
