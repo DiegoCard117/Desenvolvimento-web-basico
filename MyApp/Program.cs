@@ -46,7 +46,7 @@ Console.WriteLine(5 + 4.3);     // saída: 9.3
 
 Console.WriteLine(47 - 3);      // saída: 44
 Console.WriteLine(5 - 4.3);     // saída: 0.7
-*/
+
 Console.WriteLine("Digite o valor de a");
 int a = Int32.Parse(Console.ReadLine());
 Console.WriteLine("Digite o valor de b");
@@ -63,4 +63,10 @@ if (delta > 0 ) {
     Console.WriteLine("A segunda raiz é " + bhas2);
 } else {
     Console.WriteLine("Nao existe raiz real");
+}
+*/
+
+for(int i=0;i <= 5 ; i++) {
+    Console.WriteLine(i);
+    Console.WriteLine("-----------");
 }

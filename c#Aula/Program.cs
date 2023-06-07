@@ -27,5 +27,5 @@ Console.WriteLine(var1 == var3);
 Console.WriteLine(total + " é igual a " + var1 + " + " + var2);
 Console.WriteLine(total == var3);
 
-Console.WriteLine(var3 + " é igual a " + var1 + " + " + var2);
-Console.WriteLine(var3 == var3);
+int a = 5;
+Console.WriteLine(++a);
